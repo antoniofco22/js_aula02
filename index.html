@@ -1,0 +1,39 @@
+<html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	
+	<title>Comparar</title>
+</head>
+<body>
+	<p>N1:<input type="number" placeholder="3" name="n1"></p>
+	<p>N2:<input type="number" placeholder="3" name="n2"></p>
+	<button onclick="comparar()">Comparar</button>
+	<p>Resultado:</p>
+	<p class="resultado"></p>
+	
+	<hr>
+	<p>String1:<input type="text" placeholder="Escreva algo..." name="string1"></p>
+	<p>String2:<input type="text" placeholder="Escreva algo..." name="string2"></p>
+	<button onclick="comparar_string()">Comparar</button>
+	<p>Resultado:</p>
+	<p class="resultado_s"></p>
+	
+	<hr>
+	<p></p>
+	<p>Dia:<input type="number" placeholder="Escreva algo..." name="day"></p>
+	<p>Mês:<input type="number" placeholder="Escreva algo..." name="month"></p>
+	<p>Ano:<input type="number" placeholder="Escreva algo..." name="year"></p>
+	<p>Gênero:
+		<select name="genero">
+		  <option value="1" selected>Homem</option>
+		  <option value="2">Mulher</option>
+		</select>
+	</p>
+	
+	<button onclick="full()">Comparar</button>
+	<p>Resultado:</p>
+	<p class="resultado_full"></p>
+	
+</body>
+<script src="index.js"></script>
+</html>
